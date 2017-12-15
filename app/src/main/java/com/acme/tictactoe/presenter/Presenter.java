@@ -7,5 +7,6 @@ public interface Presenter {
     void onPause();
     void onResume();
     void onDestroy();
-
+    void onButtonSelected(int row, int col);
+    void onResetSelected();
 }
